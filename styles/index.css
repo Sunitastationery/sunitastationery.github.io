@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffdd0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  height: 80px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  background-color: #fffdd0;
+  border-bottom: 2px solid #7d5a50;
+}
+
+.brand-name {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: #7d5a50;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fffdd0;
+}
+
+.card {
+  height: 300px;
+  width: 600px;
+  border-radius: 8px;
+  border: 2px solid #7d5a50;
+  text-align: center;
+}
+
+.card-text {
+  color: #7d5a50;
+}
+
+.footer {
+  height: 80px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #fffdd0;
+  border-top: 2px solid #7d5a50;
+}

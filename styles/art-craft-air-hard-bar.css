@@ -1,0 +1,25 @@
+.card {
+  width: calc(100vw - 40px);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+}
+
+.card-text {
+  margin-left: 20px;
+  color: #7d5a50;
+}
+
+.card-text-title {
+  font-size: 30px;
+  margin-left: 20px;
+  color: #7d5a50;
+}
+
+.card-text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
