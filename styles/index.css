@@ -36,7 +36,7 @@ body {
 }
 
 .card {
-  height: 300px;
+  height: 400px;
   width: 600px;
   border-radius: 8px;
   border: 2px solid #7d5a50;
@@ -44,6 +44,8 @@ body {
 }
 
 .card-text {
+  font-size: 30px;
+  margin-left: 20px;
   color: #7d5a50;
 }
 
@@ -56,4 +58,8 @@ body {
   justify-content: center;
   background-color: #fffdd0;
   border-top: 2px solid #7d5a50;
+}
+
+a {
+  text-decoration: none;
 }
